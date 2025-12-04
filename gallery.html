@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <title>Coffee.com</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
+  <header class="header">
+    <div class="logo_section">
+      <img src="images/tea_icon.png" alt="menu icon" class="menu_icon" id="logo" style="cursor: pointer;">
+      <h2 class="logo_text">Coffee.com</h2>
+    </div>
+    <nav class="nav_links">
+      <ul class="nav_links_items">
+        <li class="nav_links_item"><a href="./index.html/#main">Home</a></li>
+        <li class="nav_links_item"><a href="./index.html/#about">About</a></li>
+        <li class="nav_links_item"><a href="./index.html/#menu">Menu</a></li>
+        <li class="nav_links_item"><a href="./index.html/#testimonials">Testimonials</a></li>
+        <li class="nav_links_item"><a href="./gallery.html">Gallery</a></li>
+        <li class="nav_links_item"><a href="./index.html/#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="navIcon">
+      <a href="#" class="text-4xl">&#8801</a>
+    </div>
+  </header>
+  <div id="mobileMenu" class="mobile_nav_links">
+    <div class="closeMenuIcon_section">
+      <a href="#" id="closeMenuIcon">&#10005</a>
+    </div>
+    <div class="closeMenuIcon_section_two">
+      <ul class="nav_links_items">
+        <li class="nav_links_item"><a href="./index.html/#main">Home</a></li>
+        <li class="nav_links_item"><a href="./index.html/#about">About</a></li>
+        <li class="nav_links_item"><a href="./index.html/#menu">Menu</a></li>
+        <li class="nav_links_item"><a href="./index.html/#testimonials">Testimonials</a></li>
+        <li class="nav_links_item"><a href="./gallery.html">Gallery</a></li>
+        <li class="nav_links_item"><a href="./index.html/#contact">Contact</a></li>
+      </ul>
+      <button class="login-btn">
+        <a href="./login.html">Login</a>
+      </button>
+    </div>
+  </div>
+  <main style="flex-grow: 1; display: flex; flex-direction: column">
+    <!-- Gallery Section -->
+    <div class="gallery_section">
+      <div class="contact_title">
+        <h2>OUR GALLERY</h2>
+        <div class="contact_title_underline"></div>
+      </div>
+      <div class="gallery_menu_items">
+        <div class="menu_item">
+          <img src="./images/gallery-1.jpg">
+        </div>
+        <div class="menu_item">
+          <img src="./images/gallery-2.jpg">
+        </div>
+        <div class="menu_item">
+          <img src="./images/gallery-3.jpg">
+        </div>
+        <div class="menu_item">
+          <img src="./images/gallery-4.jpg">
+        </div>
+        <div class="menu_item">
+          <img src="./images/gallery-5.jpg">
+        </div>
+        <div class="menu_item">
+          <img src="./images/gallery-6.jpg">
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div>&copy; 2025 Coffee.com</div>
+    <div class="icons">
+      <button class="footer-btn">
+        <img src="./icons/facebook.png" alt="facebook icon">
+      </button>
+      <button class="footer-btn">
+        <img src="./icons/instagram.png" alt="instagram icon">
+      </button>
+      <button class="footer-btn">
+        <img src="./icons/twitter.png" alt="twitter icon">
+      </button>
+    </div>
+    <div>Privacy Policy & Terms of Service</div>
+  </footer>
+</body>
+</html>
